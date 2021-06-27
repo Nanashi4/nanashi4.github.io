@@ -1,6 +1,11 @@
 <html>
-<img src="https://files.catbox.moe/doa3hx.png" width="1500" height="900">     
 <body style="background-color:powderblue;">
+  
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
 </body>
 </html>
+   
+
      
