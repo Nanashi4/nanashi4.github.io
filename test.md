@@ -1,1 +1,3 @@
-<title> TEST </title>
+<html>
+<title>TEST</title>
+<html/>
