@@ -31,12 +31,26 @@ width: 100%; max-width: 1024px">
 
 
 <div class="fixed">
-<iframe src="https://nanashi4.github.io/html/page%201">
-
-</iframe>
-
-
+<button onclick="openWin(); moveWin()">Create!</button>
+<button onclick="closeWin()">Finish!</button>
 </div>
+
+<script>
+let myWindow;
+
+function openWin() {
+myWindow = window.open("https://nanashi4.github.io/html/page%201", "new window", "width=500, height=350");
+
+}
+
+function moveWin() {
+myWindow.moveTo(1500, 800);
+}
+
+function closeWin() {
+myWindow.close()
+}
+</script>
 
 <a href="https://nanashi4.github.io/title.html"> <img src="https://files.catbox.moe/qq11yo.png" width="480" heigth="115" alt="[Illustration]"> </a> 
 
